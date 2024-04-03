@@ -1,0 +1,18 @@
+pluginManagement {
+	repositories {
+		mavenCentral()
+		gradlePluginPortal {
+			content {
+				includeGroup 'com.github.johnrengelman'
+				includeGroup 'com.github.johnrengelman.shadow'
+				includeGroup 'gradle.plugin.com.github.johnrengelman'
+			}
+		}
+		maven {
+			url 'https://repo.sleeping.town'
+			content {
+				includeGroup 'com.unascribed.nilgradle'
+			}
+		}
+	}
+}

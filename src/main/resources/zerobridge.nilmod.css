@@ -1,0 +1,12 @@
+@nilmod {
+	/* There is no id field. The filename defines the id of the mod. */
+	name: "ZeroBridge";
+	description: "A discord bridge for NilLoader.";
+	authors: "j0lol";
+	version: "${version}";
+}
+
+entrypoints {
+	/* premain is the only entrypoint defined by NilLoader itself. */
+	premain: "lol.j0.ZeroBridge.ZeroBridgePremain";
+}
